@@ -1,12 +1,5 @@
 // Create a web server
-// 1. Create a web server
-// 2. Read the file
-// 3. Send the file to the client
-// 4. Log the request
-// 5. Log the response
-// 6. Send the response
 
-// 1. Create a web server
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
@@ -37,8 +30,3 @@ var server = http.createServer(function(req, res) {
 server.listen(port, function() {
   console.log('Server started on port:', port);
 });
-// 2. Read the file
-// 3. Send the file to the client
-// 4. Log the request
-// 5. Log the response
-// 6. Send the response
